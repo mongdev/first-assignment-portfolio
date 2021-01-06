@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+.orange-highlight {
+  color: orangered;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(40deg, lightsalmon, tomato);
+  padding: 15px 40px;
+  border-radius: 10px;
+  color: white;
+}
+h1 {
+  font-size: 50px;
+  color: rgba(24, 17, 17, 0.931);
+  margin-bottom: 0%;
+}
+
+p {
+  color: dimgray;
+  padding-bottom: 15px;
+}
+.half-width {
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 2%;
+  float: left;
+}
+.half-width img {
+  width: 100%;
+}
+section {
+  height: 500px;
+  padding-bottom: 100px;
+}
+.h3-highlight {
+  padding-top: 3%;
+  text-align: center;
+  color: green;
+}
+
+/* edu background section starts */
+.edu-background-area {
+  height: 600px;
+}
+
+.edu-background-area h1 {
+  text-align: center;
+  padding-bottom: 4%;
+}
+.edu-background-area p {
+  padding-bottom: 0%;
+}
+.single-edu-background {
+  border-radius: 15px;
+  box-shadow: 5px 5px 25px rgb(226, 197, 201);
+  height: 80%;
+  background-color: white;
+}
+/* edu background section ends */
+
+/* project style section area starts */
+.project-area h1 {
+  padding-top: 0%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.project-area-button {
+  text-decoration: none;
+  background-color: green;
+  padding: 10px 20px;
+  border-radius: 7px;
+  color: white;
+}
+.project-area {
+  background-color: rgba(255, 249, 249, 0.938);
+}
+.showcase {
+  box-shadow: 10px 10px 30px dimgray;
+  border-radius: 15px;
+  float: left;
+  width: 25%;
+  height: 75%;
+  margin-left: 5%;
+  padding-left: 2%;
+  background-color: white;
+}
+.showcase img {
+  float: left;
+  width: 90%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+/* project style section area ends */
+
+/* feedback section starts */
+.feedback-area h1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.feedback-area {
+  border: 1px solid rgb(255, 221, 232);
+}
+.single-feedback {
+  box-shadow: 10px 20px 40px gray;
+  border-radius: 10px;
+  height: 60%;
+  background-color: white;
+}
+#feedback-one {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+#feedback-two {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+.feedback-project-button {
+  text-decoration: none;
+  /* background-image: linear-gradient(60deg, orange, pink); */
+  background-color: rebeccapurple;
+  padding: 10px 20px;
+  border-radius: 15px;
+  color: whitesmoke;
+}
+/* feedback section ends */
+
+/* contact section area starts */
+.contact-area {
+  height: 300px;
+}
+.contact-area {
+  background-image: url(images/inquiry.png);
+  margin: 10%;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.chatbox-area h1 {
+  font-size: 40px;
+  color: white;
+  width: 100%;
+}
+.chatbox-area {
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 15%;
+  padding-left: 5%;
+  float: none;
+  display: inline-block;
+}
+/* contact section area ends */
+
+footer {
+  padding-bottom: 50px;
+  text-align: center;
+}
+footer h4 {
+  color: dimgray;
+}
+footer img {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
